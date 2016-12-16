@@ -1,0 +1,21 @@
+
+{
+	"plugins": ["versions"],
+	
+	"pluginsConfig": {
+        "versions": {
+            "type": "tags",
+            "gitbookConfigURL": "https://raw.githubusercontent.com/SupriyaKalghatgi/testGitBookTwo/master/book.json",
+            "options": [
+                {
+                    "value": "https://github.com/SupriyaKalghatgi/testGitBook",
+                    "text": "Version 1.0.0 master"
+                },
+                {
+                    "value": "",
+                    "text": "Version 2.0.0 dev"
+                }
+            ]
+    	}
+	}
+}
